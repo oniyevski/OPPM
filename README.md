@@ -1,7 +1,7 @@
 # OPPM
 
-To remove Discord access barriers, proxifier profile manager. **For education**.
-Discord erişim engellerini kaldırmak için, proxifier profil yöneticisi. **Eğitim için**.
+EN: To remove Discord access barriers, proxifier profile manager. **For education**.
+TR: Discord erişim engellerini kaldırmak için, proxifier profil yöneticisi. **Eğitim için**.
 
 ---
 
