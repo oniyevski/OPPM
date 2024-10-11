@@ -33,7 +33,7 @@ The purpose of sharing this project is educational and for learning purposes. Th
 
 However, as with any technology or software, there is a risk that this project could be misused for unethical purposes. Therefore, I would like to emphasize the following points:
 
-    1 Educational Use: The primary goal of sharing this project is to improve skills and knowledge in software development. It is intended to contribute to individual learning processes.
+    1. Educational Use: The primary goal of sharing this project is to improve skills and knowledge in software development. It is intended to contribute to individual learning processes.
 
     2. Ethical and Legal Use: I strongly emphasize that anyone using this project must act within ethical and legal boundaries. I do not accept any responsibility for the misuse or illegal use of this project.
 
