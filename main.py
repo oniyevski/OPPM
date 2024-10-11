@@ -30,7 +30,7 @@ def print_banner():
     for line in cleaned_ascii_art.splitlines():
         console.print("[dark_orange3]" + line, justify="center", no_wrap=True)
     console.print(f"\n[sea_green1]ONI PROXIFIER PROFILE MANAGER", justify="center", no_wrap=True)
-    console.print(f"[sky_blue2]v1.0.0", justify="center", no_wrap=True)
+    console.print(f"[sky_blue2]v1.0.1", justify="center", no_wrap=True)
     console.print(f"[plum1]{platform.system()} {platform.release()} {platform.version()}", justify="center",
                   no_wrap=True)
     console.print(f"\n[turquoise2]developed by oniyevski\n", justify="center", no_wrap=True)
@@ -58,7 +58,7 @@ xml = """
 	</Options>
 	<ProxyList>
 		<Proxy id="100" type="SOCKS5">
-			<Authentication enabled="{{AUTH_STATUS}}">
+			<Authentication enabled="{AUTH_STATUS}">
 				<Password>{PROXY_PASS}</Password>
 				<Username>{PROXY_USERNAME}</Username>
 			</Authentication>
@@ -143,7 +143,7 @@ print_banner()
 formatted_paths = ';'.join(exe_paths)
 xml = xml.replace("{PATHS}", formatted_paths).replace("{PROXY_ADRESS}", ipv4_adress).replace("{PROXY_PORT}",
                                                                                              ipv4_port).replace(
-    "{PROXY_USERNAME}", ipv4_username).replace("{PROXY_PASS}", ipv4_password).replace("{PROXY_AUTH}",
+    "{PROXY_USERNAME}", ipv4_username).replace("{PROXY_PASS}", ipv4_password).replace("{AUTH_STATUS}",
                                                                                       auth_status)
 with open("oni_discord_unblocker.ppx", "w", encoding="utf-8") as file:
     file.write(xml)
